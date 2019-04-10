@@ -1,0 +1,7 @@
+is_plate_available:
+   path:     /is_plate_available
+   defaults: { _controller: AppBundle:Default:isPlateAvailable}
+
+pico_y_placa:
+   path:     /picoyplaca
+   defaults: { _controller: AppBundle:Default:verifyPlate }
